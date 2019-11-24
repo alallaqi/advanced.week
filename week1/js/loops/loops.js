@@ -159,10 +159,10 @@
 
 // varibles and block scopes
 // global scope 
-let age = 30;
+// let age = 30;
 // local scope
-if(true){
-   let age = 40
-console.log("inside 1st code block", age)
-}
-console.log( "outside code block", age)
+// if(true){
+//    let age = 40
+// console.log("inside 1st code block", age)
+// }
+// console.log( "outside code block", age)
