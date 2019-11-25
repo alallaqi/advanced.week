@@ -95,4 +95,28 @@
 // let resultTwo = name.toUpperCase();
 // console.log(resultTwo);
 
-callbacks and foreach
+// callbacks and foreach
+
+// const myFunc = (callbackFunc) => {
+    // do somthing
+//     let value = 50;
+//     callbackFunc(value);
+// };
+
+// myFunc (value =>{
+// do somthing
+// console.log(value);
+// });
+
+// let people = ["mario", "luigi", "ryu", "shaun" , "chunli"];
+
+// const logPerson = (person, index) => {
+// console.log(`${index})
+// };
+
+// people.forEach((person, index`) =>{
+//     console.log(index, person);
+// });
+
+// const ul = document.querySelector(".people")
+// const people = ["mario", "luigi", "ryu", "shaun" , "chunli"];
