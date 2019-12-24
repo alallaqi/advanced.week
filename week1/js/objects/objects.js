@@ -47,7 +47,7 @@
 //     logBlogs:function(){
 //         // console.log(this.blogs);
 //         console.log("this user has writteen theese blogs");
-//         this.blogs.forEach(blog => {
+//         .blogs.forEach(blog => {
 //             console.log(blog.titel, blog.likes);
 //         })
 //     }
