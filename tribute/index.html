@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="UTF-8">
+    <link name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+  </head> 
+  <body> 
+    <header>
+      <div class="container">
+        <h1 id="title">Happy survey</h1> 
+    </div>     
+    </header>
+    <section id="main">   
+      <div class="container-main">
+      <p id="description">Happy Form</p>  
+      </div>
+      <div class="wrapper">
+        <form id=survey-form>
+          <label for="name" id="name-label">* Name:</label> 
+          <input id="name" type="text" name="firstname" placeholder="Enter your name.." required> 
+          <label for="email" id="email-label">* Email:</label> 
+          <input id="email" type="email" name"emailaddress" placeholder="Enter your email.." required> 
+          <label for="number" id="number-label">* Age:</label> 
+          <input id="number" type="number" min="1" max="125" placeholder="Enter Age" required> 
+          <label for="dropdown" id="gender-label">* Gender:</label>
+            <select id="dropdown">
+              <option value="male">Male</option> 
+              <option value="female">Female</option>
+            </select> 
+          <label id="firstquestion-label">* send you regular updates by email?</label> 
+          <label id="yes-label">Yes</label>
+          <input type="radio" name="yesno" value="yes"> 
+           <label id="no-label">No</label> 
+          <input type="radio" name="yesno" value="no"> 
+          <label id="secondquestion-label">* Let us know what gaming platforms you play on</label> 
+          <label class="consoles">Happy</label> 
+          <input type="checkbox" name="consoles" value="happy">
+          <label class="consoles">Ok</label> 
+          <input type="checkbox" name="consoles" value="ok">
+          <label class="consoles">Muh</label> 
+          <input type="checkbox" name="consoles" value="muh.."> 
+          <label class="consoles">Bad</label> 
+          <input type="checkbox" name="Fellings" value="bad">
+       
+          <textarea name="message" rows="10" cols="30" placeholder="Type your message here"></textarea><br><br>
+      
+           <input type="submit" id="submit" value="Submit">  
+        </form>  
+      </div>
+    </section>
+    <footer> 
+      <p>FreeCodeCamp Project</p>
+    </footer>
+  </body> 
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html> 
+
+
+<video src="" width="1170" height="400"></video>
