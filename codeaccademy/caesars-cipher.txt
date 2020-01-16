@@ -1,0 +1,20 @@
+function rot13(str) { // LBH QVQ VG!
+let solved = "";
+
+for(let i = 0; i < str.length; i++){
+var num = str[i].charCodeAt();
+console.log(str[i].charCodeAt())
+if(num >= 65 && num <= 77){
+  solved += String.fromCharCode(num + 13);
+}else if(num >= 78 && num <= 90){
+  solved += String.fromCharCode(num - 13);
+}else{
+  solved += str[i]
+}
+
+}
+  return solved;
+}
+
+// Change the inputs below to test
+console.log(rot13("LBH QVQ VG"));
